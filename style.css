@@ -1,0 +1,12 @@
+body {
+    background-image: url("Assets/Images/concrete_wall_2.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+      width: 100%;
+    }
