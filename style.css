@@ -1,16 +1,34 @@
+#mainImg {
+  height: 500px;
+  width: 540px;
+  image-rendering: optimizeQuality;
+  border: 2px solid black;
+}
+
+#padding {
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
 body {
-    background-image: url("Assets/Images/concrete_wall_2.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("Assets/Images/concrete_wall_2.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media screen and (max-width: 900px) {
-    .column {
-      width: 100%;
-    }}
+  .column {
+    width: 100%;
+  }
+}
 
-    .navbar-light .navbar-toggler-icon {
-      background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=000');
-    }
+.navbar-light .navbar-toggler-icon {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=000');
+}
+
+#imgL {
+  padding-left: 75px;
+  padding-bottom: 50px;
+}
