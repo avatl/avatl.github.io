@@ -10,3 +10,7 @@ body {
     .column {
       width: 100%;
     }}
+
+    .navbar-light .navbar-toggler-icon {
+      background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=000');
+    }
