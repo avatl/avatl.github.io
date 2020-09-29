@@ -3,26 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- Icons for profile card -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap mobile responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Document</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Bootstrap depend. jQuery JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <!-- Bootstrap Popper -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-            crossorigin="anonymous"></script>
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
     <!-- Bootstrap JS minified -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <!-- my CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- my JS -->
+    <link href="script.js">
 </head>
 
 <header>
@@ -50,31 +54,53 @@
 </header>
 
 <body>
+
     <!-- Bootstrap Grid -->
-    <img id="mainImg" src="./Assets/Images/Ava Professional.png"
-        class="rounded mx-auto d-block my-5" class="img-fluid img-thumbnail figure-img rounded">
+    <!-- Main Image -->
+    <!-- <img id="mainImg" src="./Assets/Images/Ava Professional.png" class="rounded mx-auto d-block my-5"
+        class="img-fluid img-thumbnail figure-img rounded"> -->
     <section class="container">
+        <!-- Profile Card -->
         <div class="row">
-            <div class="rounded mx-auto d-block">
-                <h1>About Me</h1>
+            <div class="card col-md-4">
+                <img src="./Assets/Images/Ava Professional.png" alt="Ava" class="img-fluid">
+                <h1>Ava Lorusso</h1>
+                <p class="title">Full-Stack Developer; Student</p>
+                <p>Columbia University</p>
+                <div class="mx-2">
+                    <a href="https://github.com/avatl"><i class="fa fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ava-lorusso-08a0791b8/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://angel.co/u/avalorusso"><i class="fa fa-angellist"></i></a>
+                    <a href="https://open.spotify.com/user/ava.tlorusso"><i class="fa fa-spotify"></i></a>
+                </div>
                 <p>
-                    I am a New York City local who studies Sexology at BMCC. I love taking film photography as a hobby
-                    and I
-                    work as a professional body piercer in SoHo. I am currently doing a tattoo apprenticeship alongside
-                    my studies
-                    and Coding Bootcamp - I enjoy staying busy. During COVID-19, I have self-isolated with my sister,
-                    boyfriend,
-                    and cat. I just learned how to make tres leches from scratch but french fries will always be my
-                    favorite food.
+                    <button class="card-button">
+                        <a href="Assets/Images/codeRes.png" download="AvaLorussoResume" class="text-light">
+                            Resume
+                        </a>
+                    </button>
                 </p>
             </div>
+            <div class="col-md-8">
+                <div class="rounded">
+                    <h1>Profile</h1>
+                    <p>
+                        Ava is a full-time student at Columbia University in addition to a CUNY University.
+                        She is currently embarking on a career in full-stack development while also studying
+                        to complete an Associate’s Degree in psychology. Ava plans to use and build upon her
+                        newfound programming skills in the years to come, and she is eager to learn and adapt
+                        to new languages within full-stack development.
+                    </p>
+                </div>
+            </div>
         </div>
+        <footer>
+            <p>Ava Lorusso ©</p>
+        </footer>
     </section>
 
-    <footer>
-        <p style="text-align: center">Ava Lorusso ©</p>
-    </footer>
-    
+
 </body>
+
 
 </html>

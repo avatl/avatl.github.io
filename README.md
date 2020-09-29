@@ -1,6 +1,7 @@
-Welcome to my Portfolio! 
+#Welcome to my Portfolio! 
 
-In this assignment, I created a webpage with an about me section, a portfolio to my work on GitHub, and a contact sheet where viewers can write to me directly through the page.
+In this assignment, I created a webpage with an about me section, a portfolio to my work on GitHub, 
+and a contact sheet where viewers can write to me directly through the page.
 
 I Intend To:
 

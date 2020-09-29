@@ -18,6 +18,42 @@ body {
   background-size: cover;
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* max-width: 300px; */
+  text-align: center;
+  font-family: arial;
+  padding: 0;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.card-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
 @media screen and (max-width: 900px) {
   .column {
     width: 100%;
@@ -31,4 +67,18 @@ body {
 #imgL {
   padding-left: 75px;
   padding-bottom: 50px;
+}
+
+footer {
+  /* position: absolute; */
+  left: 0;
+  margin-top: 2em;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: small;
+}
+
+.container .btn:hover {
+  background-color: black;
 }
