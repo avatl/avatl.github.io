@@ -63,6 +63,7 @@ footer {
   margin-top: 2em;
   bottom: 0;
   width: 100%;
+  height: auto;
   text-align: center;
   font-size: small;
 }
@@ -77,4 +78,5 @@ footer {
 
 .repoLinks {
   font-size: medium;
+  margin: 5px;
 }
