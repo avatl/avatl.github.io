@@ -1,9 +1,3 @@
-#mainImg {
-  height: 500px;
-  width: 540px;
-  image-rendering: optimizeQuality;
-  border: 2px solid black;
-}
 
 #padding {
   padding-bottom: 15px;
@@ -13,6 +7,7 @@
 body {
   background-image: url("Assets/Images/concrete_wall_2.png");
   height: 100%;
+  background-position-y: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,11 +58,6 @@ button:hover, a:hover {
   background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=000');
 }
 
-#imgL {
-  padding-left: 75px;
-  padding-bottom: 50px;
-}
-
 footer {
   left: 0;
   margin-top: 2em;
@@ -79,4 +69,8 @@ footer {
 
 .container .btn:hover {
   background-color: black;
+}
+
+.p1 {
+  font-size: xx-large;
 }

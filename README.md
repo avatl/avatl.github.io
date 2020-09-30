@@ -1,4 +1,4 @@
-#Welcome to my Portfolio! 
+<h2>Welcome to my Portfolio!</h2>
 
 In this assignment, I created a webpage with an about me section, a portfolio to my work on GitHub, 
 and a contact sheet where viewers can write to me directly through the page.
@@ -6,7 +6,7 @@ and a contact sheet where viewers can write to me directly through the page.
 I Intend To:
 
     - PORTFOLIO CHANGES:
-    
+
         * Add title to github projects
         
         * Link to the deployed version on bottom 
