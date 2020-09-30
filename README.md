@@ -10,8 +10,7 @@ I Intend To:
         * Add title to github projects
         
         * Link to the deployed version on bottom 
-    
-    - Change IG link to LinkedIn
+
 
 <img src="Assets/Images/aboutme.png">
 <img src="Assets/Images/aboutmesm.png">
