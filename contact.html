@@ -2,29 +2,33 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <!-- Icons for profile card -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap mobile responsive -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Document</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Bootstrap depend. jQuery JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <!-- Bootstrap Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <!-- Bootstrap JS minified -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-    <!-- my CSS -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <!-- Icons for profile card -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap mobile responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Document</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Bootstrap depend. jQuery JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap JS minified -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <!-- my CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- jsdeliver CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+  <!-- my JS -->
+  <script src="script.js"></script>
 </head>
 
 
@@ -54,77 +58,81 @@
     </nav>
   </header>
 
-  <!--Bootstrap CONTACT -->
+  <!-- Bootstrap Contact Form -->
   <section class="mb-4 container">
 
-    <!--Contact-->
+    <!-- contact header-->
     <h1 class="h1-responsive font-weight-light text-center my-4">Contact</h1>
-
-    <!--Message from me-->
     <p class="text-center w-responsive mx-auto mb-5">
       Send your message to Ava below:
     </p>
 
     <div class="row justify-content-md-center">
 
-      <!--Grid column-->
+      <!-- action with formspree-->
       <div class="col-md-6 rounded d-block">
-        <form action="action_page.php">
+        <form action="https://formspree.io/f/xeqpovjl" method="POST">
 
           <div class="row">
-
-            <!--Name-->
+            <!-- enter name-->
             <div class="col-md-6">
               <div class="md-form mb-0">
-                <input type="text" id="name" name="name" class="form-control">
-                <label for="name" class="">Your name</label>
+                <label>
+                  Your name
+                  <input type="text" id="name" name="name" class="name form-control">
+                </label>
               </div>
             </div>
 
-            <!--Email-->
+            <!-- enter email-->
             <div class="rounded mx-auto d-block col-md-6">
               <div class="md-form mb-0">
-                <input type="text" id="email" name="email" class="form-control">
-                <label for="email">Your email</label>
+                <label>
+                  Your email
+                  <input type="email" id="email" name="_replyto" class="email form-control">
+                </label>
               </div>
             </div>
 
           </div>
 
+          <!-- enter text -->
           <div class="row">
-
-            <!--Message to me-->
             <div class="col-md-12">
-
               <div class="md-form">
-                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                <label for="message">Your message</label>
+                <label for="message">
+                  Your message
+                  <textarea class="message form-control" name="message" type="message"></textarea>
+                </label>
               </div>
-
             </div>
           </div>
-        </form>
 
-        <!--Send-->
-        <div class="text-center text-md-left">
-          <a class="btn btn-secondary text-light">Send</a>
-        </div>
-        <div class="status"></div>
+          <div class="status"></div>
+
+          <!-- send button -->
+          <div class="text-center text-md-left">
+            <button type="submit" class="btn btn-secondary" value="Send">Send</button>
+          </div>
+          <div class="submit"></div>
+        </form>
       </div>
 
-      <!--Grid column-->
+
+      <!-- other links -->
       <div class="col-md-3 text-center">
         <ul class="list-unstyled">
           <li>
-            <a href="https://github.com/avatl" target="_blank">GitHub</a>
-          </li>
-          
-          <li>
-            <a href="https://www.linkedin.com/in/ava-lorusso-08a0791b8/" target="_blank">LinkedIn</a>
+            <a class="h5 font-weight-light" href="https://github.com/avatl" target="_blank">GitHub</a>
           </li>
 
           <li>
-            <a href="https://angel.co/u/avalorusso" target="_blank">AngelList</a>
+            <a class="h5 font-weight-light" href="https://www.linkedin.com/in/ava-lorusso-08a0791b8/"
+              target="_blank">LinkedIn</a>
+          </li>
+
+          <li>
+            <a class="h5 font-weight-light" href="https://angel.co/u/avalorusso" target="_blank">AngelList</a>
           </li>
         </ul>
       </div>
@@ -133,7 +141,7 @@
     <footer>
       <p>Ava Lorusso ©</p>
     </footer>
-    
+
   </section>
 
 </body>
