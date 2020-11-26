@@ -15,4 +15,7 @@ This project mainly uses HTML, CSS, and BootStrap, but JavaScript was also utili
 <img src="Assets/Images/portfolio2.png">
 <img src="Assets/Images/contact2.jpeg">
 
+<h3>License</h3>
+![badmath](https://img.shields.io/badge/license-Mit-green)
+
 Live Link: https://avatl.github.io/

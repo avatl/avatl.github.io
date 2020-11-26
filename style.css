@@ -66,6 +66,7 @@ footer {
   height: auto;
   text-align: center;
   font-size: small;
+  position: static;
 }
 
 .container .btn:hover {
